@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CFF3F55E-C328-42AA-AD86-2B32049DC87E}</ProjectGuid>
+    <ProjectGuid>{DC8833FA-A1DB-4906-96B2-D637079C6275}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MyFirstApp</RootNamespace>
     <AssemblyName>MyFirstApp</AssemblyName>
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,1 +1,1 @@
-# TrivialCalculator
+Calculator
